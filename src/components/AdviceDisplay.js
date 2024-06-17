@@ -1,8 +1,9 @@
 import React from 'react';
+import styles from '../components/Display.module.css'
 
 const AdviceDisplay = ({ advice }) => {
   return (
-    <div className="advice-display">
+    <div className={styles.DisplayContainer}>
       <p>{advice}</p>
          <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">

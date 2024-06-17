@@ -1,9 +1,9 @@
 import AdviceGen from '@/components/AdviceGen.js';
 import AdviceDisplay from '@/components/AdviceDisplay.js';
-import Layout from '@/components/Layout';
 import React, { useState } from 'react';
 import axios from 'axios';
 import styles from '../styles/Home.module.css';
+
 
 
 
@@ -20,12 +20,15 @@ const Home = () => {
   };
 
   return (
-    <Layout>
+    
+  
       <div className={styles.container}>
-        <AdviceDisplay advice={advice} />
+        <h1 className={styles.h1}>advice</h1>
+        <AdviceDisplay advice={advice} /> 
         <AdviceGen onClick={fetchAdvice} />
       </div>
-    </Layout>
+      
+  
   );
 };
 

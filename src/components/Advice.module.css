@@ -1,0 +1,11 @@
+.AdviceGenerator {
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px ;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .AdviceGenerator:hover {
+    background-color: hsl(150, 51%, 38%);
+    color: white;
+}

@@ -1,45 +1,20 @@
-.layout {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-  }
-  
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-  }
-  
-  .advice-display {
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-    color: Dark Grayish Blue hsl(217, 19%, 24%);
-  }
-  
-  .advice-gen {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #0070f3;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .advice-gen:hover {
-    background-color: Dark Blue hsl(218, 23%, 16%);
-  }
-  
-  .manrope {
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-  }
+.h1 {
+  margin: 0 0 0px;
+  font-size: 20px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: hsl(150, 100%, 66%);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: hsl(218, 23%, 16%);
+}
